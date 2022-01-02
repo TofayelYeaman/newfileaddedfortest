@@ -1,0 +1,46 @@
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width:576px) {
+    #test {
+        background-color: #f6f6f6;
+    }
+
+}
+
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width:576px and max-width:768px;) {
+    #test {
+        background-color: #612866;
+        font-size: 30px;
+
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #test{
+        background-color:#0408ff;
+        font-size: 50px;
+    }
+    
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #test{
+        background-color:#c6fa0a;
+        font-size: 30px;
+    }
+    
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    #test{
+        background-color:#00b7ff;
+        font-size: 50px;
+    }
+    
